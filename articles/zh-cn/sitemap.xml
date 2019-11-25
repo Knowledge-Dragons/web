@@ -113,6 +113,26 @@
   </url>
   
   <url>
+    <loc>https://little-dragons.github.io/web/articles/hugo-w3-simple-shortcodes-demo/</loc>
+    <lastmod>2018-11-24T00:26:15+13:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/w3-simple-shortcodes-demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/hugo-w3-simple-shortcodes-demo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/categories/%E7%BD%91%E7%BB%9C%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2018-11-24T00:26:15+13:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://little-dragons.github.io/web/articles/zh-cn/about/</loc>
     <lastmod>2018-11-10T00:28:38+00:00</lastmod>
     <xhtml:link
@@ -125,6 +145,106 @@
                 hreflang="zh-cn"
                 href="https://little-dragons.github.io/web/articles/zh-cn/about/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/tags/drink/</loc>
+    <lastmod>2018-10-07T11:40:14+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/tags/drink/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/tags/drink/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/posts/ninth/</loc>
+    <lastmod>2018-10-07T11:40:14+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/ninth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/ninth/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/posts/seventh/</loc>
+    <lastmod>2018-10-07T11:39:29+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/seventh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/seventh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/posts/sixth/</loc>
+    <lastmod>2018-10-07T11:39:25+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/sixth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/sixth/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/posts/fourth/</loc>
+    <lastmod>2018-10-07T11:39:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/fourth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/fourth/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/posts/third/</loc>
+    <lastmod>2018-10-07T11:39:13+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/third/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/third/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/posts/second/</loc>
+    <lastmod>2018-10-07T11:39:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/zh-cn/posts/my-first-post/</loc>
+    <lastmod>2018-10-07T11:17:14+02:00</lastmod>
   </url>
   
   <url>
