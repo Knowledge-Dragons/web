@@ -308,6 +308,11 @@
   </url>
   
   <url>
+    <loc>https://little-dragons.github.io/web/articles/posts/seal-40/</loc>
+    <lastmod>2019-11-20T22:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://little-dragons.github.io/web/articles/posts/fightingf-falcon/</loc>
     <lastmod>2019-11-20T16:10:05+07:00</lastmod>
   </url>
@@ -415,6 +420,16 @@
   <url>
     <loc>https://little-dragons.github.io/web/articles/w3-simple-shortcodes-demo/</loc>
     <lastmod>2018-11-09T07:26:15+13:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/hugo-w3-simple-shortcodes-demo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/w3-simple-shortcodes-demo/"
+                />
   </url>
   
   <url>
@@ -425,6 +440,16 @@
   <url>
     <loc>https://little-dragons.github.io/web/articles/tags/drink/</loc>
     <lastmod>2018-10-07T11:40:14+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/tags/drink/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/tags/drink/"
+                />
   </url>
   
   <url>
@@ -445,26 +470,76 @@
   <url>
     <loc>https://little-dragons.github.io/web/articles/posts/ninth/</loc>
     <lastmod>2018-10-07T11:40:14+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/ninth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/ninth/"
+                />
   </url>
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/posts/seventh/</loc>
     <lastmod>2018-10-07T11:39:29+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/seventh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/seventh/"
+                />
   </url>
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/posts/sixth/</loc>
     <lastmod>2018-10-07T11:39:25+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/sixth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/sixth/"
+                />
   </url>
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/posts/fourth/</loc>
     <lastmod>2018-10-07T11:39:16+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/fourth/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/fourth/"
+                />
   </url>
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/posts/third/</loc>
     <lastmod>2018-10-07T11:39:13+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/posts/third/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/posts/third/"
+                />
   </url>
   
   <url>
