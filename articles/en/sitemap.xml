@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -18,23 +18,13 @@
   </url>
   
   <url>
-    <loc>https://little-dragons.github.io/web/articles/posts/book-review-principles-2/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/tags/book-review/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://little-dragons.github.io/web/articles/tags/business/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/categories/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -48,13 +38,28 @@
   </url>
   
   <url>
-    <loc>https://little-dragons.github.io/web/articles/categories/lift/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+    <loc>https://little-dragons.github.io/web/articles/tags/disruption/</loc>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/categories/industry/</loc>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://little-dragons.github.io/web/articles/zh-cn/categories/industry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://little-dragons.github.io/web/articles/categories/industry/"
+                />
   </url>
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/posts/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -68,13 +73,8 @@
   </url>
   
   <url>
-    <loc>https://little-dragons.github.io/web/articles/tags/self/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://little-dragons.github.io/web/articles/tags/</loc>
-    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -88,18 +88,28 @@
   </url>
   
   <url>
-    <loc>https://little-dragons.github.io/web/articles/categories/industry/</loc>
-    <lastmod>2019-11-24T21:55:11+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/categories/industry/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/categories/industry/"
-                />
+    <loc>https://little-dragons.github.io/web/articles/posts/domino-disruption/</loc>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/posts/book-review-principles-2/</loc>
+    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/tags/book-review/</loc>
+    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/categories/lift/</loc>
+    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/tags/self/</loc>
+    <lastmod>2019-11-24T22:40:11+07:00</lastmod>
   </url>
   
   <url>
