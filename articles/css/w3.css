@@ -309,9 +309,11 @@ textarea {
 /* End extract */
 html,
 body {
-    font-family: "cs_prajad",    sans-serif;
+    font-family: "Noto Serif Thai", sans-serif;
     font-size: 18px;
+    color: #333333;
     line-height: 1.5
+    
 }
 
 html {
