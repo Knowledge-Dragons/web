@@ -111,7 +111,7 @@ hr.tag {
 }
 
 a{
-  color:#2A293E;
+  color:#001133;
 }
 a:link {
 
@@ -120,7 +120,7 @@ a:link {
 
 /* mouse over link */
 a:hover {
-    color: red;
+    color: crimson;
   }
 /* code */
 .w3-code {
@@ -154,7 +154,7 @@ blockquote {
     padding-left: 20px; 
     line-height: 1.8em;
     color : crimson;    
-    font-style: italic;    
+    
     background-color: #E0E0E0
 }
 blockquote p {
@@ -167,7 +167,7 @@ blockquote p {
 
 em {
    
-   font-style: italic;
+   
    color:crimson;
 }
 /* cookie bar css */
@@ -357,12 +357,12 @@ text-decoration: underline;
 }
 
 .pagination .active a {
-    background-color: #4CAF50;
+    background-color: #001133;
     color: white;
-    border: 1px solid #4CAF50;
+    border: 1px solid #001133;
 }
 
-.pagination a:hover:not(.active) {background-color: #4CAF50;}
+.pagination a:hover:not(.active) {background-color: #001133;}
 
 .pagination li { display: inline; }
 

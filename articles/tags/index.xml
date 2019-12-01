@@ -6,7 +6,7 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2019 20:40:11 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2019 21:50:11 +0700</lastBuildDate>
     
 	<atom:link href="https://little-dragons.github.io/web/articles/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>Business</title>
       <link>https://little-dragons.github.io/web/articles/tags/business/</link>
-      <pubDate>Mon, 25 Nov 2019 20:40:11 +0700</pubDate>
+      <pubDate>Wed, 27 Nov 2019 21:50:11 +0700</pubDate>
       
       <guid>https://little-dragons.github.io/web/articles/tags/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>https://little-dragons.github.io/web/articles/tags/people/</link>
+      <pubDate>Wed, 27 Nov 2019 21:50:11 +0700</pubDate>
+      
+      <guid>https://little-dragons.github.io/web/articles/tags/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Money</title>
+      <link>https://little-dragons.github.io/web/articles/tags/money/</link>
+      <pubDate>Tue, 26 Nov 2019 19:40:11 +0700</pubDate>
+      
+      <guid>https://little-dragons.github.io/web/articles/tags/money/</guid>
       <description></description>
     </item>
     
@@ -215,24 +233,6 @@
       <pubDate>Fri, 09 Nov 2018 07:26:15 +1300</pubDate>
       
       <guid>https://little-dragons.github.io/web/articles/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>drink</title>
-      <link>https://little-dragons.github.io/web/articles/tags/drink/</link>
-      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
-      
-      <guid>https://little-dragons.github.io/web/articles/tags/drink/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>interesting</title>
-      <link>https://little-dragons.github.io/web/articles/tags/interesting/</link>
-      <pubDate>Sun, 07 Oct 2018 11:40:14 +0200</pubDate>
-      
-      <guid>https://little-dragons.github.io/web/articles/tags/interesting/</guid>
       <description></description>
     </item>
     

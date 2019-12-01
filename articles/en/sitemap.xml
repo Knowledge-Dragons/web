@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/</loc>
-    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -19,12 +19,12 @@
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/tags/business/</loc>
-    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
   </url>
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/categories/</loc>
-    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -38,13 +38,8 @@
   </url>
   
   <url>
-    <loc>https://little-dragons.github.io/web/articles/tags/disruption/</loc>
-    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://little-dragons.github.io/web/articles/categories/industry/</loc>
-    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -58,8 +53,13 @@
   </url>
   
   <url>
+    <loc>https://little-dragons.github.io/web/articles/tags/people/</loc>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://little-dragons.github.io/web/articles/posts/</loc>
-    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -74,7 +74,7 @@
   
   <url>
     <loc>https://little-dragons.github.io/web/articles/tags/</loc>
-    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -85,6 +85,31 @@
                 hreflang="en"
                 href="https://little-dragons.github.io/web/articles/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/posts/robert-kuok-kerry-express/</loc>
+    <lastmod>2019-11-27T21:50:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/posts/15-facts-about-finance/</loc>
+    <lastmod>2019-11-26T19:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/categories/finance/</loc>
+    <lastmod>2019-11-26T19:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/tags/money/</loc>
+    <lastmod>2019-11-26T19:40:11+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://little-dragons.github.io/web/articles/tags/disruption/</loc>
+    <lastmod>2019-11-25T20:40:11+07:00</lastmod>
   </url>
   
   <url>
@@ -445,111 +470,6 @@
   <url>
     <loc>https://little-dragons.github.io/web/articles/categories/website-programming/</loc>
     <lastmod>2018-11-09T07:26:15+13:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/tags/drink/</loc>
-    <lastmod>2018-10-07T11:40:14+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/tags/drink/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/tags/drink/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/tags/interesting/</loc>
-    <lastmod>2018-10-07T11:40:14+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/tags/interesting/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/tags/interesting/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/posts/ninth/</loc>
-    <lastmod>2018-10-07T11:40:14+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/posts/ninth/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/posts/ninth/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/posts/seventh/</loc>
-    <lastmod>2018-10-07T11:39:29+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/posts/seventh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/posts/seventh/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/posts/sixth/</loc>
-    <lastmod>2018-10-07T11:39:25+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/posts/sixth/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/posts/sixth/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/posts/fourth/</loc>
-    <lastmod>2018-10-07T11:39:16+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/posts/fourth/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/posts/fourth/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://little-dragons.github.io/web/articles/posts/third/</loc>
-    <lastmod>2018-10-07T11:39:13+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://little-dragons.github.io/web/articles/zh-cn/posts/third/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://little-dragons.github.io/web/articles/posts/third/"
-                />
   </url>
   
   <url>
