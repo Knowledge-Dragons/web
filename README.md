@@ -1,1 +1,1 @@
-# [Aticles](https://little-dragons.github.io/web/aticles)
+# [Aticles](https://little-dragons.github.io/web/articles/)
