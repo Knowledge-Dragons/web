@@ -14,17 +14,10 @@
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 
 
-<<<<<<< HEAD
 <link rel="stylesheet" href="/book.min.ba80a294a0325c5c36a8698ddbb2d9a3117e0f361d80c32c59884473e279a16b.css" integrity="sha256-uoCilKAyXFw2qGmN27LZoxF&#43;DzYdgMMsWYhEc&#43;J5oWs=">
 
 
 <script defer src="/en.search.min.336facf2446ed428a015ae7286dadf048d21688f6fc866b0e176768422d88c64.js" integrity="sha256-M2&#43;s8kRu1CigFa5yhtrfBI0haI9vyGaw4XZ2hCLYjGQ="></script>
-=======
-<link rel="stylesheet" href="/book.min.f56a05e3ed15ae13ff07d8b81966a57ed2bd43602fe96576a2e83572f3b36df5.css" integrity="sha256-9WoF4&#43;0VrhP/B9i4GWalftK9Q2Av6WV2oug1cvOzbfU=">
-
-
-<script defer src="/en.search.min.ac0b825bb31063b709feb41361bae23c8702c13df229dc1f1b448a558b02ba74.js" integrity="sha256-rAuCW7MQY7cJ/rQTYbriPIcCwT3yKdwfG0SKVYsCunQ="></script>
->>>>>>> 42d866cf4a0e4fe0d0e6f76edbeeb948429139e8
 
 <!--
 Made with Book Theme
@@ -523,7 +516,6 @@ Flask-SQLAlchemy==1.0
 Flask-WTF==0.9.3
 </code></pre>
 
-<<<<<<< HEAD
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -581,8 +573,6 @@ Flask-WTF==0.9.3
 </div>
 </div>
 
-=======
->>>>>>> 42d866cf4a0e4fe0d0e6f76edbeeb948429139e8
 <p>Now we can run  <code>pip install -r requirements.txt</code>  to install our requirements into our virtual environment.</p>
 
 <h2 id="outgrowing-small">Outgrowing small</h2>
@@ -606,7 +596,6 @@ Flask-WTF==0.9.3
 
 <p>If you crack it open, the first thing you see after the imports is:</p>
 
-<<<<<<< HEAD
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -635,26 +624,11 @@ app<span style="color:#f92672">.</span>config<span style="color:#f92672">.</span
 db <span style="color:#f92672">=</span> SQLAlchemy(app)</code></pre></td></tr></table>
 </div>
 </div>
-=======
-<pre><code class="language-python">_cwd = dirname(abspath(__file__))
-
-SECRET_KEY = 'flask-session-insecure-secret-key'
-SQLALCHEMY_DATABASE_URI = 'sqlite:///' + join(_cwd, 'flask-tracking.db')
-SQLALCHEMY_ECHO = True
-WTF_CSRF_SECRET_KEY = 'this-is-not-random-but-it-should-be'
-
-app = Flask(__name__)
-app.config.from_object(__name__)
-
-db = SQLAlchemy(app)
-</code></pre>
->>>>>>> 42d866cf4a0e4fe0d0e6f76edbeeb948429139e8
 
 <p>We set up some basic config settings - the  <code>SECRET_KEY</code>  is used to sign Flask’s sessions, the  <code>SQLALCHEMY_DATABASE_URI</code>  is the path to our database (we are using SQLite for now), and the  <code>WTF_CSRF_SECRET_KEY</code>  is used to sign WTForms’ CSRF tokens. We initialize a new Flask application and tell it to configure itself (with our  <code>app.config.from_object</code>  call) with all of the  <code>ALL_CAPS</code>  symbols in the current module. Then we initialize our Flask-SQLAlchemy extension with our application.</p>
 
 <p>From there, it is pretty much a straight shot - we set up our models:</p>
 
-<<<<<<< HEAD
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="display:block;width:100%;background-color:#3c3d38"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -753,58 +727,6 @@ db = SQLAlchemy(app)
 <p>There are also a couple of helper functions to turn SQLAlchemy query objects into lists of lists of data for our templates and then at the bottom of the module we set up a  <code>main</code>  block to create our tables if they do not exist and run the application in debug mode:</p>
 
 <pre><code class="language-py">if __name__ == &quot;__main__&quot;:
-=======
-<pre><code class="language-python">class Site(db.Model):
-    __tablename__ = 'tracking_site'
-
-    id = db.Column(db.Integer, primary_key=True)
-    base_url = db.Column(db.String)
-    visits = db.relationship('Visit', backref='tracking_site', lazy='select')
-
-    def __repr__(self):
-        return '&lt;Site %r&gt;' % (self.base_url)
-
-    def __str__(self):
-        return self.base_url
-
-class Visit(db.Model):
-    # ... snip ...
-
-and forms:
-
-class SiteForm(Form):
-    base_url = fields.StringField()
-
-class VisitForm(Form):
-    # ... snip ...
-
-and routes that utilize these models and forms:
-
-@app.route(&quot;/&quot;)
-def index():
-    site_form = SiteForm()
-    visit_form = VisitForm()
-    return render_template(&quot;index.html&quot;,
-                           site_form=site_form,
-                           visit_form=visit_form)
-
-@app.route(&quot;/site&quot;, methods=(&quot;POST&quot;, ))
-def add_site():
-    form = SiteForm()
-    if form.validate_on_submit():
-        site = Site()
-        form.populate_obj(site)
-        db.session.add(site)
-        db.session.commit()
-        flash(&quot;Added site&quot;)
-        return redirect(url_for(&quot;index&quot;))
-    return render_template(&quot;validation_error.html&quot;, form=form)
-</code></pre>
-
-<p>There are also a couple of helper functions to turn SQLAlchemy query objects into lists of lists of data for our templates and then at the bottom of the module we set up a  <code>main</code>  block to create our tables if they do not exist and run the application in debug mode:</p>
-
-<pre><code>if __name__ == &quot;__main__&quot;:
->>>>>>> 42d866cf4a0e4fe0d0e6f76edbeeb948429139e8
     app.debug = True
     db.create_all()
     app.run()
@@ -829,11 +751,7 @@ def add_site():
 
 <p>Keeping in mind that our goal today is simply to track visits to a site, we will avoid creating a sub-package for our tracking code … yet (remember, YAGNI until you need it). Let’s go ahead and add separate  <code>models</code>,  <code>forms</code>, and  <code>views</code>  modules to hold our domain models, our data translation layer, and our view code respectively. Let’s also create a  <code>templates</code>  subdirectory to hold the resources we will use to render the site. Finally, we will add a configuration file and a script to run the application. Now we should have a directory structure that looks like this:</p>
 
-<<<<<<< HEAD
 <pre><code class="language-py">flask-tracking/
-=======
-<pre><code class="language-python">flask-tracking/
->>>>>>> 42d866cf4a0e4fe0d0e6f76edbeeb948429139e8
     flask_tracking/
         templates/    # Holds Jinja templates
         __init__.py   # General application setup
@@ -850,11 +768,7 @@ def add_site():
 
 <p>Our domain models are simple - a site has a root URL and a visit has metadata about the visitor (browser, IP address, URL, etc.). We include  <code>__repr__</code>  methods to give us better details on the command line (<code>&lt;Visit for site ID 1: / - 2013-11-09 14:10:11&gt;</code>  is more useful than  <code>&lt;package.module.Visit object at 0x12345&gt;</code>).  <code>Site</code>  includes a  <code>__str__</code>  method to control what we display when we display a list of sites in a drop down menu.</p>
 
-<<<<<<< HEAD
 <pre><code class="language-py">from flask.ext.sqlalchemy import SQLAlchemy
-=======
-<pre><code class="language-python">from flask.ext.sqlalchemy import SQLAlchemy
->>>>>>> 42d866cf4a0e4fe0d0e6f76edbeeb948429139e8
 
 db = SQLAlchemy()
 
@@ -893,7 +807,6 @@ class Visit(db.Model):
 
 <p>Our  <code>forms</code>  code is standard WTForms, with one exception. If you look at  <code>VisitForm</code>:</p>
 
-<<<<<<< HEAD
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -922,20 +835,6 @@ class Visit(db.Model):
     site <span style="color:#f92672">=</span> QuerySelectField(query_factory<span style="color:#f92672">=</span><span style="color:#66d9ef">lambda</span>: Site<span style="color:#f92672">.</span>query<span style="color:#f92672">.</span>all())</code></pre></td></tr></table>
 </div>
 </div>
-=======
-<pre><code class="language-python">from .models import Site
-
- ... snip ...
-
-class VisitForm(Form):
-    browser = fields.StringField()
-    date = fields.DateField()
-    event = fields.StringField()
-    url = fields.StringField()
-    ip_address = fields.StringField(&quot;IP Address&quot;)
-    site = QuerySelectField(query_factory=lambda: Site.query.all())
-</code></pre>
->>>>>>> 42d866cf4a0e4fe0d0e6f76edbeeb948429139e8
 
 <p>you will note that we need to wrap  <code>Site.query.all</code>  in a  <a href="https://realpython.com/python-lambda/"><code>lambda</code></a>  rather than passing it in as-is. Since our  <code>db</code>  is not bound to an application when  <code>VisitForm</code>  is being constructed we cannot access  <code>Site.query</code>. Creating a function that will call  <code>Site.query</code>  only when  <code>VisitForm</code>  is instantiated (e. g. in our views we call  <code>form = VisitForm()</code>) ensures that we will only access  <code>Site.query</code>  when we will have access to a Flask application instance.</p>
 
